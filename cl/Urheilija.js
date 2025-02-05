@@ -39,7 +39,7 @@ class Urheilija extends Henkilo {
 
   //#endregion Setters
 
-  //#region Gettert ominaisuuksille
+  //#region Getterit ominaisuuksille
   getPicture() {
     return this.linkToPicture;
   }

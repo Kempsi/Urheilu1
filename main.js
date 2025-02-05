@@ -21,7 +21,21 @@ const urheilija = new Urheilija(
   1984
 );
 
+// Asetetaan urheilijan oikea laji
 urheilija.setSport("Koripallo");
+
+// Tulostetaan urheilijan kuvan linkki konsoliin
+console.log(urheilija.getPicture());
+
+// Tulostetaan urheilijan koko nimi konsoliin
+console.log(
+  "Urheilijan koko nimi: " +
+    urheilija.firstName +
+    " " +
+    urheilija.middleName +
+    " " +
+    urheilija.lastName
+);
 
 // Tulostetaan olion tiedot konsoliin
 console.table(urheilija);
